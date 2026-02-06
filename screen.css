@@ -12,3 +12,40 @@ a.active {
     --header-border-radius: 40px;
 }
 
+body {
+    margin: 0 20%;
+    background: var(--main-bg);
+    color: var(--main-type);
+    font-family: Helvetica, sans-serif;
+}
+
+header {
+  margin-top: 40px;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--main-bg-alt);
+  border-radius: var(--header-border-radius);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+
+nav ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: var(--main-type-alt);
+  text-decoration: none;
+}
